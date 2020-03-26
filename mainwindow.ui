@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>307</width>
+    <height>168</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>307</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_AS"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrint"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPAste"/>
+    <addaction name="actionSelect_All"/>
+    <addaction name="separator"/>
+    <addaction name="actionUndo_2"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <widget class="QMenu" name="menuFormat">
+    <property name="title">
+     <string>Format</string>
+    </property>
+    <addaction name="actionFont"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp_2">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuFormat"/>
+   <addaction name="menuHelp_2"/>
+  </widget>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/folder-8.png</normaloff>:/images/icons/167172-files-and-folders/folder-8.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/folder-10.png</normaloff>:/images/icons/167172-files-and-folders/folder-10.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/167172-files-and-folders/folder-12.png</normaloff>:/images/icons/167172-files-and-folders/folder-12.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_AS">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/file-5.png</normaloff>:/images/icons/167172-files-and-folders/file-5.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+S</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/folder-6.png</normaloff>:/images/icons/167172-files-and-folders/folder-6.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/cut.png</normaloff>:/images/icons/167172-files-and-folders/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/copy.png</normaloff>:/images/icons/167172-files-and-folders/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPAste">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/paste.png</normaloff>:/images/icons/167172-files-and-folders/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionSelect_All">
+   <property name="text">
+    <string>Select All</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/font.png</normaloff>:/images/icons/167172-files-and-folders/font.png</iconset>
+   </property>
+   <property name="text">
+    <string>Font</string>
+   </property>
+  </action>
+  <action name="actionStatus_Bar">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/167172-files-and-folders/folder-8.png</normaloff>icons/167172-files-and-folders/folder-8.png</iconset>
+   </property>
+   <property name="text">
+    <string>Status Bar</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionUndo_2">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/undo.png</normaloff>:/images/icons/167172-files-and-folders/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/images/icons/167172-files-and-folders/redo.png</normaloff>:/images/icons/167172-files-and-folders/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="AppResources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

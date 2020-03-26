@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>icons/167172-files-and-folders/avi.png</file>
+        <file>icons/167172-files-and-folders/dll.png</file>
+        <file>icons/167172-files-and-folders/eps.png</file>
+        <file>icons/167172-files-and-folders/file.png</file>
+        <file>icons/167172-files-and-folders/file-4.png</file>
+        <file>icons/167172-files-and-folders/file-5.png</file>
+        <file>icons/167172-files-and-folders/file-6.png</file>
+        <file>icons/167172-files-and-folders/files.png</file>
+        <file>icons/167172-files-and-folders/folder-2.png</file>
+        <file>icons/167172-files-and-folders/folder-3.png</file>
+        <file>icons/167172-files-and-folders/folder-4.png</file>
+        <file>icons/167172-files-and-folders/folder-5.png</file>
+        <file>icons/167172-files-and-folders/folder-6.png</file>
+        <file>icons/167172-files-and-folders/folder-8.png</file>
+        <file>icons/167172-files-and-folders/folder-10.png</file>
+        <file>icons/167172-files-and-folders/folder-11.png</file>
+        <file>icons/167172-files-and-folders/undo.png</file>
+        <file>icons/167172-files-and-folders/redo.png</file>
+        <file>icons/167172-files-and-folders/paste.png</file>
+        <file>icons/167172-files-and-folders/cut.png</file>
+        <file>icons/167172-files-and-folders/copy.png</file>
+        <file>icons/167172-files-and-folders/font.png</file>
+        <file>icons/167172-files-and-folders/folder-12.png</file>
+        <file>icons/167172-files-and-folders/save as.png</file>
+    </qresource>
+</RCC>
